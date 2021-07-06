@@ -25,8 +25,20 @@ public class Account implements Serializable {
     private String username;
 
     @Setter
+    @Column("name")
+    private String name;
+
+    @Setter
+    @Column("sname")
+    private String surname;
+
+    @Setter
     @Column("email")
     private String email;
+
+    @Setter
+    @Column("birth_date")
+    private Date birthDate;
 
     @Setter
     @Column("pwd")
