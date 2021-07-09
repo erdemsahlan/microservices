@@ -1,11 +1,8 @@
-package com.project.accountservice.dto;
+package com.example.servicecommon.contract;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import org.springframework.data.cassandra.core.mapping.Column;
-
 import java.util.Date;
 
 @Data
@@ -26,3 +23,4 @@ public class AccountDto {
 
 
 }
+

@@ -1,13 +1,10 @@
 package com.project.accountservice.services;
 
 import com.project.accountservice.Repository.AccountRepository;
-import com.project.accountservice.dto.AccountDto;
 import com.project.accountservice.entity.Account;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
-
-import java.util.List;
 
 @RequiredArgsConstructor
 @Service
